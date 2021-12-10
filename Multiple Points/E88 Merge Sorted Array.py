@@ -20,4 +20,4 @@ if __name__=="__main__":
     m, n = 3, 3
     nums2 = [2,5,6] 
     num = Solution.merge(nums1, m, nums2, n)
-    print(inputs[:num])
+    print(nums1[:num])
