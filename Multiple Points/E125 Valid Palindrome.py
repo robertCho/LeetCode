@@ -2,7 +2,7 @@ from typing import List
 
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        s1 = ''.join([ch for ch in s if ch.isalnum()]).lower()
+        s1 = ''.join(ch for ch in s if ch.isalnum()).lower()
         s2 = s1[::-1]
         return s1 == s2
 
